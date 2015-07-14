@@ -1,12 +1,12 @@
 # Neuralnetwork
 
-* Implementaion of various algorithms using neuralNets
+* Implementation of various algorithms in NeuralNetworks
 
 ###ALGORITHMS
 
 * Perceptron
-* MLP
-* RadialBasisNeuralNet
+* Multi Layer Perceptron (MLP)
+* Radial Basis Functions Neural Networks
 
 ### Resource Used
 [ Machine Learning ](https://seat.massey.ac.nz/personal/s.r.marsland/MLBook.html)
