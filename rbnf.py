@@ -163,6 +163,13 @@ class NN:
 		cnt = 0
 		i =0
 		for row in self.ao:
+			listRow = list(row)
+			listExpected = list(expected[i])
+			if(listRow.index(max(listRow)) != listExpected.index(max(listExpected))):
+				cnt+=1
+
+
+
 			i+=1
 		print cnt		
 
@@ -179,6 +186,7 @@ data = readFromCSV("irisData.csv")
 data = np.array(data)
 
 np.random.shuffle(data)
+
 
 target = data[:,-1]
 target = np.array(intToVector(target))
